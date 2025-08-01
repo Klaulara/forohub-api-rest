@@ -70,12 +70,21 @@
 
 ---
 
+## Swagger
+
+Revisa los endpoints en la documentación oficial. 
+
+```
+   http://localhost:8080/swagger-ui/index.html
+   ```
+
+---
 
 ## 📌 Notas adicionales
 
 - El proyecto usa manejo global de errores con `@RestControllerAdvice`.
 - Las validaciones se realizan usando `@Valid` y excepciones personalizadas (`ValidationException`).
-- Contiene JWT para que los usuarios se logueen. 
+- Contiene JWT para que los usuarios se logueen.
 
 ---
 
